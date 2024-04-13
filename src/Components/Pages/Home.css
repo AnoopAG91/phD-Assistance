@@ -1,0 +1,63 @@
+.banner {
+    background-image: url(https://www.phdassistance.com/wp-content/uploads/2022/12/PA-banner-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: -moz-fit-content;
+    height: 80vh;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    animation: slideInLeft .8s forwards ease-in-out; /* Using CSS animation */
+    text-align: left;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%); /* Start position off-screen */
+    }
+    to {
+      transform: translateX(0); /* Move content to left side */
+    }
+  }
+
+
+.banner button {
+    position: relative;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid#fff;
+  }
+  
+  .banner button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start position off-screen */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(148, 148, 148, 0.3); 
+    transition: 0.5s ease; /* Smooth transition for left movement */
+  }
+  
+  .banner button:hover::before {
+    left: 0; /* Move background from left to right */
+  }
+
+.banner h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+.banner h5,p {
+    color: #dedede;
+}

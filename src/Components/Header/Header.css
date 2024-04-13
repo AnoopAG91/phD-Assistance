@@ -1,0 +1,86 @@
+
+.top-header {
+    background-color: #bf2229;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-right ul li:not(:last-child){
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+.top-header a{
+    text-decoration: none;
+    color: #ffffff !important;
+}
+.top-right ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.top-right {
+    display: flex;
+    justify-content: end;
+}
+.navbar{
+    width: 100%;
+}
+.navbar button.btn.btn-outline-success {
+    background-color: #fff;
+    color: #dc3545;
+    outline: none;
+    border: none;
+}
+.navbar svg {
+    font-size: 1.3rem;
+}
+.navbar a{
+    color: #eeeeee !important;
+}
+.navbar-collapse {
+    background-color: #bf2229;
+    justify-content: space-between;
+    padding: 5px;
+}
+.nav-item a:hover{
+    color: #bf2229;
+}
+.nav-link{
+    transition: .3s ease-in-out;
+    padding: 2px;
+}
+.nav-item .nav-link:hover{
+    background-color: #fff;
+    color: black !important;
+    transform: translateY(2px);
+    transition: .3s ease-in-out;
+}
+.search-div {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.search-div input {
+    outline: none;
+    border: none;
+}
+.search-div input:focus{
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+ul.dropdown-menu.show {
+    background: black;
+}
+hr.dropdown-divider {
+    background-color: #fff;
+}
