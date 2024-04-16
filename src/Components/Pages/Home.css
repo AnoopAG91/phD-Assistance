@@ -69,7 +69,9 @@
 }
 
 /* services css */
-
+.services{
+  margin: 2rem 0;
+}
 .services-icon svg {
   color: #bf2229;
   font-size: 3rem;
@@ -86,30 +88,35 @@
 .services-cards {
   display: flex;
   flex-direction: column;
-  gap: .6rem;
 }
 
 .card-title h4 {
   color: #bf2229;
 }
+.card-description {
+  background-color: #c9464bd9;
+  padding: 10px;
+}
 .card-description p {
-  color: #5b5858;
+  color: #fff;
 }
 .card-image img {
   width: 100%;
   height: 100%;
   transition: 0.3s ease;
 }
-.card-image img:hover{
+.card-image:hover{
   transform: translateY(-5px);
   transition: 0.3s ease;
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
 }
 
 
 .card-image {
   position: relative;
   transition: .3s ease;
+  overflow: hidden;
 }
 
 .card-image a {
@@ -144,6 +151,73 @@
 
 
 
+/* mentors css */
+section.mentors {
+  background-color: rgb(191 34 41 / 84%);
+  padding: 2rem 0;
+}
+.mentors img {
+  width: 100%;
+}
+.mentor-title {
+  margin-bottom: 2rem;
+}
+.mentor-div {
+  text-align: left;
+}
+.mentor-heading {
+  margin-top: 1rem;
+}
+.mentor-heading h3 {
+  color: #6c757d;
+}
+.mentor-title h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.card-body a {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #c9464b;
+  color: #c9464b;
+  font-size: 1rem;
+  transition: .4s ease;
+  text-transform: uppercase;
+}
+.card-body a:hover{
+  background-color: #c9464b;
+  color: #fff;
+  transition: .4s ease;
+  border:1px solid  transparent;
+}
+.card-body p {
+  color: #6c757d;
+}
+.card {
+  min-height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive css */
 @media (max-width:768px){
@@ -162,8 +236,9 @@
     top: 20%;
   }
 
+  /* services */
   .services{
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
   .services-title {
     margin: 1rem 0;
@@ -177,11 +252,26 @@
     line-height: 1.5;
     margin: 0;
 }
+
+  /* mentors  */
+  .card {
+    margin-bottom: 2rem;
+}
+
 }
 
 
 @media (max-width:1024px){
   .banner {
     height: 40vh;
+  }
+}
+
+
+
+@media (min-width:998px){
+  .mentors img {
+    width: 100%;
+    height: 300px;
   }
 }

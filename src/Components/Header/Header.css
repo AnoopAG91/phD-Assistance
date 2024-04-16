@@ -97,3 +97,13 @@ hr.dropdown-divider {
     font-size: 14px;
   }
   }
+
+  @media (max-width:567px){
+    .any-questions{
+        display: none;
+    }
+    .top-left{
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+  }

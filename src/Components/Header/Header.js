@@ -15,7 +15,7 @@ function Header() {
                     <div className='row'>
                         <div className='col-md-6'>
                             <div className='top-left'>
-                                <a>Have any questions?</a>
+                                <a className='any-questions'>Have any questions?</a>
                                 <a href='/'><FaPhone /> +91-9176966446</a>
                                 <a href='/'><MdOutlineMail /> info@phdassistance.com</a>
                             </div>
