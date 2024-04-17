@@ -1,6 +1,10 @@
 import React from 'react'
 import './Home.css'
 import { IoSettingsSharp } from "react-icons/io5";
+import { IoIosTimer } from "react-icons/io";
+import { FaBook } from "react-icons/fa6";
+import { AiOutlineLike } from "react-icons/ai";
+import { TiArrowForwardOutline } from "react-icons/ti";
 
 
 
@@ -90,7 +94,7 @@ function Home() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4'>
+            <div className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src="https://www.phdassistance.com/wp-content/uploads/2014/11/home_languageschool_course1.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -101,7 +105,7 @@ function Home() {
               </div>
             </div>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src="https://www.phdassistance.com/wp-content/uploads/2020/09/home_languageschool_course4.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -113,7 +117,7 @@ function Home() {
 
             </div>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src=" https://www.phdassistance.com/wp-content/uploads/2014/11/home_languageschool_course3.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -125,6 +129,48 @@ function Home() {
              
 
 
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className='guarantee my-5'>
+        <div className='guarantee-title'>
+          <h1>Our Guarantee</h1>
+          <h4>What We Deliver, What We Promise</h4>
+        </div>
+
+        <div className='container gap-2 mt-5'>
+          <div className='row mb-5'>
+            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+              <div className='icon'><a href='/'><IoIosTimer /></a></div>
+              <div className='text'>
+                <h5>On Time Delivery</h5>
+                <p>Thereby you can be assured of your submission.</p>
+              </div>
+            </div>
+            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+              <div className='icon'><a href='/'><AiOutlineLike /></a></div>
+              <div className='text'>
+                <h5>100% Originality Guarantee</h5>
+                <p>All our writing works are scanned through plagiarism software and <br/>ensure that the document is delivered with 95-100% plagiarism free.</p>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+              <div className='icon'><a href='/'><FaBook /></a></div>
+              <div className='text'>
+                <h5>On Time Delivery</h5>
+                <p>Thereby you can be assured of your submission.</p>
+              </div>
+            </div>
+            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+              <div className='icon'><a href='/'><TiArrowForwardOutline /></a></div>
+              <div className='text'>
+                <h5>On Time Delivery</h5>
+                <p>Thereby you can be assured of your submission.</p>
+              </div>
             </div>
           </div>
         </div>

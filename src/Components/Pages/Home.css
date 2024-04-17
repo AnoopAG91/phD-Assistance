@@ -58,8 +58,8 @@
     font-family: sans-serif;
     margin-bottom: 1rem;
 }
-.banner h5,p {
-    color: #dedede;
+.banner h5, p {
+  color: #e2e2e2;
 }
 .banner h5{
   font-size: 1.2rem;
@@ -92,6 +92,7 @@
 
 .card-title h4 {
   color: #bf2229;
+  margin-bottom: 1rem;
 }
 .card-description {
   background-color: #c9464bd9;
@@ -183,7 +184,7 @@ section.mentors {
   color: #c9464b;
   font-size: 1rem;
   transition: .4s ease;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .card-body a:hover{
   background-color: #c9464b;
@@ -206,13 +207,48 @@ section.mentors {
 
 
 
-
-
-
-
-
-
-
+/* guarantee css  */
+.icon svg {
+  font-size: 3rem;
+  color: #c9464b;
+}
+.text {
+  text-align: left;
+}
+.guarantee .text p {
+  margin: 0;
+  color: #aaaaaa;
+}
+.icon {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgba(110, 110, 110, 0.13);
+  transition: .3s ease-in-out;
+}
+.icon a{
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+.icon:hover{
+  background-color: #bf2229;
+  transition: .3s ease-in-out;
+  box-shadow: 0 3px 10px rgba(110, 110, 110, 0.13);
+  cursor: pointer;
+}
+.icon:hover svg{
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+.guarantee-title h1 {
+  color: #c9464b;
+  font-size: 3rem;
+}
+.guarantee-title h4 {
+  color: #6c757d;
+  font-weight: 400;
+  font-family: sans-serif;
+}
 
 
 
@@ -220,7 +256,31 @@ section.mentors {
 
 
 /* Responsive css */
-@media (max-width:768px){
+
+@media (max-width: 1200px){
+  .banner {
+    height: 45vh !important;
+}
+}
+
+
+
+@media (max-width: 991px){
+  .card-body h5 {
+    font-size: 1rem;
+}
+.card-body a {
+  padding: 5px 10px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+}
+
+
+
+
+@media (max-width: 767px){
   .banner h1{
     font-size: 1.5rem;
   }
@@ -238,7 +298,7 @@ section.mentors {
 
   /* services */
   .services{
-    margin: 2rem 0;
+    margin: 1rem 0 !important;
   }
   .services-title {
     margin: 1rem 0;
@@ -257,21 +317,42 @@ section.mentors {
   .card {
     margin-bottom: 2rem;
 }
+.card-description p {
+  color: #fff;
+  font-size: 12px !important;
+}
+
+.services-cards {
+  margin-bottom: 1.5rem;
+}
 
 }
 
 
-@media (max-width:1024px){
-  .banner {
-    height: 40vh;
+
+
+
+@media (max-width: 517px){
+  h1{
+    font-size:2rem ; 
   }
+  h5 {
+    font-size: 1rem;
 }
-
-
-
-@media (min-width:998px){
-  .mentors img {
-    width: 100%;
-    height: 300px;
+  .guarantee{
+    margin-top: 2rem;
   }
+  .guarantee-title h1 {
+    color: #c9464b;
+    font-size: 2rem;
+}
+.icon svg {
+  font-size: 2rem;
+}
+.icon {
+  padding: 1rem;
+}
+.row.mb-5 {
+  margin: 0;
+}
 }
