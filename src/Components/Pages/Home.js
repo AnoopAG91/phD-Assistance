@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import { IoSettingsSharp } from "react-icons/io5";
 import { IoIosTimer } from "react-icons/io";
@@ -6,14 +6,21 @@ import { FaBook } from "react-icons/fa6";
 import { AiOutlineLike } from "react-icons/ai";
 import { TiArrowForwardOutline } from "react-icons/ti";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Home() {
+  
+  useEffect(() => {
+    AOS.init();   
+  }, [])
+
   return (
     <div className='home'>
       <section className='banner'>
         <div className='banner-content'>
-          <div className='banner-text'>
+          <div data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1000" className='banner-text'>
             <h1>Succesfully Mentored</h1>
             <h5>Research Scholars & Authors Across The Globe</h5>
             <p>Ph.D. Assistance serves as an external mentor to brainstorm your idea <br /> and translate that into research model.</p>
@@ -24,13 +31,13 @@ function Home() {
 
       <section className='services mt-5'>
         <div className='container'>
-          <div className='services-icon'><IoSettingsSharp /></div>
-          <div className='services-title'>
+          <div data-aos="fade-right" data-aos-delay="200"  data-aos-duration="1000" className='services-icon'><IoSettingsSharp /></div>
+          <div data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1000" className='services-title'>
             <h1>Why PhD Assistance</h1>
             <h1>A Trusted & Academically Sound Mentors representing various Countries </h1>
           </div>
 
-          <div className='row'>
+          <div  data-aos="fade-up" data-aos-delay="200"  data-aos-duration="1000" className='row'>
             <div className='col-md-4'>
             <div className='card-title'>
                   <h4>Research Guidance / Mentoring</h4>
@@ -89,12 +96,12 @@ function Home() {
       </section>
 
       <section className='mentors'>
-        <div className='mentor-title'>
+        <div data-aos="fade-right" data-aos-delay="200"  data-aos-duration="1000" className='mentor-title'>
           <h1>Our Mentors</h1>
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4 mb-3'>
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src="https://www.phdassistance.com/wp-content/uploads/2014/11/home_languageschool_course1.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -105,7 +112,7 @@ function Home() {
               </div>
             </div>
 
-            <div className='col-md-4 mb-3'>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src="https://www.phdassistance.com/wp-content/uploads/2020/09/home_languageschool_course4.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -117,7 +124,7 @@ function Home() {
 
             </div>
 
-            <div className='col-md-4 mb-3'>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" className='col-md-4 mb-3'>
               <div className="card">
                 <img className="card-img-top" src=" https://www.phdassistance.com/wp-content/uploads/2014/11/home_languageschool_course3.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -135,13 +142,13 @@ function Home() {
       </section>
       
       <section className='guarantee my-5'>
-        <div className='guarantee-title'>
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='guarantee-title'>
           <h1>Our Guarantee</h1>
           <h4>What We Deliver, What We Promise</h4>
         </div>
 
         <div className='container gap-2 mt-5'>
-          <div className='row mb-5'>
+          <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" className='row mb-5'>
             <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><IoIosTimer /></a></div>
               <div className='text'>
@@ -157,7 +164,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className='row'>
+          <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='row'>
             <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><FaBook /></a></div>
               <div className='text'>
