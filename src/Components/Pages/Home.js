@@ -160,15 +160,15 @@ function Home() {
         </div>
 
         <div className='container gap-2 mt-5'>
-          <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" className='row mb-5'>
-            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+          <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" className='row'>
+            <div className='guarantee-column col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><IoIosTimer /></a></div>
               <div className='text'>
                 <h5>On Time Delivery</h5>
                 <p>Thereby you can be assured of your submission.</p>
               </div>
             </div>
-            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+            <div className='guarantee-column col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><AiOutlineLike /></a></div>
               <div className='text'>
                 <h5>100% Originality Guarantee</h5>
@@ -176,15 +176,15 @@ function Home() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='row'>
-            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+          <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='row  mb-5'>
+            <div className='guarantee-column col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><FaBook /></a></div>
               <div className='text'>
                 <h5>On Time Delivery</h5>
                 <p>Thereby you can be assured of your submission.</p>
               </div>
             </div>
-            <div className='col-md-6 d-flex justify-content-start gap-3 align-items-center'>
+            <div className='guarantee-column col-md-6 d-flex justify-content-start gap-3 align-items-center'>
               <div className='icon'><a href='/'><TiArrowForwardOutline /></a></div>
               <div className='text'>
                 <h5>On Time Delivery</h5>

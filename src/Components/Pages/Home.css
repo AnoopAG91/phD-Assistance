@@ -440,12 +440,10 @@ section.testimonials {
 
 
 @media (max-width: 517px) {
-  h1 {
-    font-size: 1rem !important;
-  }
 
-  h5 {
-    font-size: 1rem;
+  /* mentor title  */
+  .mentor-title h1{
+    font-size: 2rem;
   }
 
   .guarantee {
@@ -456,6 +454,9 @@ section.testimonials {
     color: #c9464b;
     font-size: 2rem;
   }
+  .guarantee-column {
+    margin-bottom: 2rem;
+}
 
   .icon svg {
     font-size: 2rem;
@@ -470,8 +471,8 @@ section.testimonials {
   }
 
   .guarantee h4 {
-    font-size: 1rem;
-  }
+    font-size: 14px;
+}
 
   .card-body {
     justify-content: center;
@@ -495,6 +496,12 @@ section.testimonials {
 }
 .testimonial-wrapper h5 {
   font-size: 1.2rem;
+}
+button.carousel-control-next,.carousel-control-prev {
+  display: none;
+}
+.testimonial-title {
+  color: #c9464b;
 }
 
 }
