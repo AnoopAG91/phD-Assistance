@@ -1,0 +1,165 @@
+
+.footer {
+    background-color: #434647;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.search-div {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.search-div input {
+    outline: none;
+    border: none;
+}
+.search-div input:focus{
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+.about-us {
+    text-align: left;
+    margin-top: 2rem;
+}
+.about-us p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.main-services {
+    text-align: left;
+}
+.links{
+    text-align: left;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: left;
+}
+.footer h4 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.footer a{
+    text-decoration: none;
+    color: #dedede;
+    transition: .3s ease-in-out;
+}
+.footer li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer li{
+    transition: .3s ease-in-out;
+}
+.footer li a:hover{
+    color: #be2128;
+    transition: .3s ease-in-out;
+}
+::marker {
+    color: #be2128;
+    font-size: 1.2rem;
+    list-style-type: square !important;
+}
+.contact-us h6 {
+    color: #dedede;
+}
+.footer button.btn.btn-outline-success {
+    outline: none;
+    border: none;
+    color: #be2128;
+    font-size: 1.2rem;
+}
+button.btn.btn-outline-success:hover {
+    background-color: #be2128;
+    color: #fff;
+    border-radius: 0;
+}
+.footer hr{
+    color: #fff;
+    margin: 2rem 0;
+}
+.social-icons svg {
+    color: #dedede;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    font-size: 1.1rem;
+}
+.social-icons svg:hover{
+    color: #fff;
+    transition: .3s ease-in-out;
+    transform: translateY(-5px);
+}
+.footer .copy-right p {
+    font-size: 13px;
+}
+
+
+
+@media (max-width: 767px) {
+    .banner h1 {
+      font-size: 1.5rem;
+    }
+  
+    .banner h5 {
+      font-size: 1rem;
+    }
+  
+    .banner p {
+      margin-bottom: 1rem;
+    }
+  
+    .banner-content {
+      position: absolute;
+      left: 5%;
+      top: 20%;
+    }
+  
+    /* services */
+    .services {
+      margin: 1rem 0 !important;
+    }
+  
+    .services-title {
+      margin: 1rem 0;
+    }
+  
+    .services svg {
+      font-size: 2rem
+    }
+  
+    .services-title h1 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.5;
+      margin: 0;
+    }
+  
+    /* mentors  */
+    .card {
+      margin-bottom: 2rem;
+    }
+  
+    .card-description p {
+      color: #fff;
+      font-size: 12px !important;
+    }
+  
+    .services-cards {
+      margin-bottom: 1.5rem;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 517px) {
+    
+   
+  }

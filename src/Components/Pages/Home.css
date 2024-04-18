@@ -292,13 +292,20 @@ section.mentors {
 
 
 /* testimonial css */
+/* .testimonials{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/testimonial/testimonial-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} */
 .carousel-item img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 section.testimonials {
-  margin: 4rem 0;
   background-color: lightgray;
   padding: 2rem;
   position: relative;
@@ -311,12 +318,13 @@ section.testimonials {
   position: static;
 }
 .testimonial-wrapper {
-  background-color: #fff;
+  background-color: #ffffffd9;
   padding: 2rem;
   width: 80%;
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+  border-radius: 10px;
 }
 .testimonial-title h1 {
   color: #c9464b;
