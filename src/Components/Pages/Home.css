@@ -200,7 +200,11 @@ section.mentors {
   background-color: rgb(191 34 41 / 84%);
   padding: 2rem 0;
 }
-
+.card-body h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #c9464b;
+}
 .mentors img {
   width: 100%;
 }
@@ -311,7 +315,9 @@ section.mentors {
   font-weight: 400;
   font-family: sans-serif;
 }
-
+.guarantee-column.col-md-6 {
+  margin-bottom: 2rem;
+}
 
 
 /* testimonial css */
@@ -491,6 +497,10 @@ section.testimonials {
   .guarantee-column {
     margin-bottom: 2rem;
 }
+.guarantee-column.col-md-6 {
+  margin-bottom: 1rem;
+}
+
 
   .icon svg {
     font-size: 2rem;
@@ -557,5 +567,7 @@ section.services-mobile {
 .services-mobile .services-title h1{
   font-size: 1rem;
 }
-
+.services-mobile .card {
+  min-height: fit-content !important;
+}
 }

@@ -113,7 +113,7 @@ function Home() {
           <h1>Why PhD Assistance</h1>
           <h1>A Trusted & Academically Sound Mentors representing various Countries </h1>
         </div>
-        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className='col-md-4'>
