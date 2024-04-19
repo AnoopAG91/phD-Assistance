@@ -56,7 +56,7 @@ function Home() {
               </div>
               <div className='services-cards'>
                 <div className='card-image'>
-                  <a href='https://www.facebook.com'><img src='https://www.phdassistance.com/wp-content/uploads/2021/03/home4.jpg' alt='Research Guidance' /></a>
+                  <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2021/03/home4.jpg' alt='Research Guidance' /></a>
                 </div>
 
                 <div className='card-description'>
@@ -73,7 +73,7 @@ function Home() {
               </div>
               <div className='services-cards'>
                 <div className='card-image'>
-                  <a href='https://www.facebook.com'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home5.jpg' alt='Research Guidance' /></a>
+                  <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home5.jpg' alt='Research Guidance' /></a>
                 </div>
 
                 <div className='card-description'>
@@ -90,7 +90,7 @@ function Home() {
               </div>
               <div className='services-cards'>
                 <div className='card-image'>
-                  <a href='https://www.facebook.com'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home6.jpg' alt='Research Guidance' /></a>
+                  <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home6.jpg' alt='Research Guidance' /></a>
                 </div>
 
                 <div className='card-description'>
@@ -104,6 +104,73 @@ function Home() {
 
 
 
+        </div>
+      </section>
+
+      <section className='services-mobile'>
+      <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='services-icon'><IoSettingsSharp /></div>
+        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" className='services-title'>
+          <h1>Why PhD Assistance</h1>
+          <h1>A Trusted & Academically Sound Mentors representing various Countries </h1>
+        </div>
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <div className='col-md-4'>
+                <div className='card-title'>
+                  <h4>Research Guidance / Mentoring</h4>
+                </div>
+                <div className='services-cards'>
+                  <div className='card-image'>
+                    <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2021/03/home4.jpg' alt='Research Guidance' /></a>
+                  </div>
+
+                  <div className='card-description'>
+                    <p>
+                      Research Mentoring at all stages of your Research & Publications – Rewriting, Translating your ideas, copyediting, formatting or plagiarism check.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div className="carousel-item">
+              <div className='col-md-4'>
+                <div className='card-title'>
+                  <h4>Research Guidance / Mentoring</h4>
+                </div>
+                <div className='services-cards'>
+                  <div className='card-image'>
+                    <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home5.jpg' alt='Research Guidance' /></a>
+                  </div>
+
+                  <div className='card-description'>
+                    <p>
+                      Research Mentoring at all stages of your Research & Publications – Rewriting, Translating your ideas, copyediting, formatting or plagiarism check.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className='col-md-4'>
+                <div className='card-title'>
+                  <h4>Research Guidance / Mentoring</h4>
+                </div>
+                <div className='services-cards'>
+                  <div className='card-image'>
+                    <a href='/'><img src='https://www.phdassistance.com/wp-content/uploads/2022/09/home6.jpg' alt='Research Guidance' /></a>
+                  </div>
+
+                  <div className='card-description'>
+                    <p>
+                      Research Mentoring at all stages of your Research & Publications – Rewriting, Translating your ideas, copyediting, formatting or plagiarism check.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -201,56 +268,56 @@ function Home() {
         </div>
 
         <div className='testimonial-wrapper'>
-        <div id="carouselExampleCaptions" class="carousel slide">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <div className='carousel-image'>
-      <img src={img1}  alt="..."/>
-      </div>
-      
-      <div className="carousel-caption d-md-block">
-        <h5>John Voghley</h5>
-        <p><FaQuoteLeft/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente 
-          architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam.<FaQuoteRight/></p>
-      </div>
-    </div>
-    <div className="carousel-item ">
-      <div className='carousel-image'>
-      <img src={img1}  alt="..."/>
-      </div>
-      
-      <div className="carousel-caption d-md-block">
-        <h5>John Voghley</h5>
-        <p><FaQuoteLeft/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente 
-          architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam.<FaQuoteRight/></p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <div className='carousel-image'>
-      <img src={img1}  alt="..."/>
-      </div>
-      
-      <div className="carousel-caption d-md-block">
-        <h5>John Voghley</h5>
-        <p><FaQuoteLeft/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente 
-          architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam. <FaQuoteRight/></p>
-      </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className='carousel-image'>
+                  <img src={img1} alt="..." />
+                </div>
+
+                <div className="carousel-caption d-md-block">
+                  <h5>John Voghley</h5>
+                  <p><FaQuoteLeft /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente
+                    architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam.<FaQuoteRight /></p>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <div className='carousel-image'>
+                  <img src={img1} alt="..." />
+                </div>
+
+                <div className="carousel-caption d-md-block">
+                  <h5>John Voghley</h5>
+                  <p><FaQuoteLeft /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente
+                    architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam.<FaQuoteRight /></p>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className='carousel-image'>
+                  <img src={img1} alt="..." />
+                </div>
+
+                <div className="carousel-caption d-md-block">
+                  <h5>John Voghley</h5>
+                  <p><FaQuoteLeft /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, maxime facere eius vel asperiores sapiente
+                    architecto iste error numquam hic perferendis consequuntur nulla temporibus id quibusdam ipsa! Obcaecati, hic quibusdam. <FaQuoteRight /></p>
+                </div>
+              </div>
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </section>
     </div>
