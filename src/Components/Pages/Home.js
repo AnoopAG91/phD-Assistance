@@ -14,6 +14,11 @@ import { AiOutlineLike } from "react-icons/ai";
 import { TiArrowForwardOutline } from "react-icons/ti";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
+
+
+
+
 
 
 
@@ -177,6 +182,11 @@ function Home() {
       <section className='mentors'>
         <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" className='mentor-title'>
           <h1>Our Mentors</h1>
+          <h5>Intellectual, Passionate, and Highly Collaborative.</h5>
+          <div className='title-btn'>
+          <a href="/" class="btn btn-primary">Know More <FaArrowRight /> </a>
+          </div>
+          
         </div>
         <div className='container'>
           <div className='row'>
@@ -224,6 +234,9 @@ function Home() {
         <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='guarantee-title'>
           <h1>Our Guarantee</h1>
           <h4>What We Deliver, What We Promise</h4>
+          <div className='title-btn'>
+          <a href="/" class="btn btn-primary">Know More <FaArrowRight /> </a>
+          </div>
         </div>
 
         <div className='container gap-2 mt-5'>

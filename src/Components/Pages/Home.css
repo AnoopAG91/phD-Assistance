@@ -203,7 +203,7 @@ section.mentors {
 .card-body h5 {
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #c9464b;
+  color: #c9464b !important;
 }
 .mentors img {
   width: 100%;
@@ -227,8 +227,26 @@ section.mentors {
 
 .mentor-title h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: sans-serif;
+}
+.mentors .title-btn a {
+  background: transparent;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+}
+.mentors .title-btn a:hover{
+  background-color: #fff;
+  color: #c9464b;
+  transition: .3s ease-in-out;
+}
+.mentors .title-btn svg{
+font-size: 1.2rem;
+}
+section.mentors h5 {
+  color: #f8f9fa;
 }
 
 .card-body a {
@@ -266,6 +284,18 @@ section.mentors {
 
 
 /* guarantee css  */
+.guarantee .title-btn a{
+  background-color: #c9464b;
+  color: #fff;
+  transition: .3s ease-in-out;
+  border: none;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+.guarantee .title-btn a:hover{
+  transform: translateX(5px);
+  transition: .3s ease-in-out;
+}
 .icon svg {
   font-size: 3rem;
   color: #c9464b;
@@ -307,7 +337,7 @@ section.mentors {
 
 .guarantee-title h1 {
   color: #c9464b;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .guarantee-title h4 {
@@ -357,6 +387,7 @@ section.testimonials {
 }
 .testimonial-title h1 {
   color: #c9464b;
+  font-size: 2.5rem;
 }
 .testimonial-wrapper h5 {
   color: #c9464b;

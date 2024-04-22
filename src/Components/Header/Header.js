@@ -3,6 +3,7 @@ import './Header.css'
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 
@@ -48,7 +49,7 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">About Us</a>
+                                    <Link className="nav-link active" to={'/aboutus'}>About Us</Link>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
