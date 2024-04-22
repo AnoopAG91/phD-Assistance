@@ -24,6 +24,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 
 
@@ -42,7 +43,7 @@ function Home() {
             <h5>Research Scholars & Authors Across The Globe</h5>
             <p>Ph.D. Assistance serves as an external mentor to brainstorm your idea <br /> and translate that into research model.</p>
           </div>
-          <button>About Us</button>
+          <Link to={'/aboutus'}> <button>About Us</button></Link>
         </div>
       </section>
 
