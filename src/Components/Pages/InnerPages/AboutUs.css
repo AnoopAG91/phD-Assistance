@@ -85,4 +85,20 @@
     .about-box{
         padding: 1rem;
     }
+    .about-wrapper img {
+        width: 100%;
+        height: 20vh !important;
+    }
+    .about-content h1 {
+        font-size: 1.5rem;
+    }
+    .about-content {
+        padding: 2rem;
+        margin: 0 !important;
+    }
+    .about-content p {
+        color: #6c757d;
+        font-size: 14px;
+        text-align: justify;
+    }
 }
