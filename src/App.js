@@ -5,15 +5,19 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Pages/Home';
 import AboutUs from './Components/Pages/InnerPages/AboutUs';
+import Whatsapp from './Components/WhatsAppIcon/Whatsapp';
+import ContactUs from './Components/Pages/InnerPages/ContactUs';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Header/>
+      <Whatsapp/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
+          <Route path='/contactus' element={<ContactUs/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

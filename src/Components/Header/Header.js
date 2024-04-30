@@ -80,7 +80,7 @@ function Header() {
                                     <a className="nav-link active" aria-current="page" href="#">Help Guide</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                    <Link to={'/contactus'} className="nav-link active">Contact Us </Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">Hire A research Assistant</a>

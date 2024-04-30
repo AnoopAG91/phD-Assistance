@@ -1,0 +1,80 @@
+
+.contact-header{
+    background-image: url('https://www.phdassistance.com/wp-content/uploads/2022/02/banner-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-header-content{
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #b9b9b9;
+    width: 90%;
+    padding: 2rem;
+}
+
+.contact-left{
+    margin: 0;
+    padding: 0;
+}
+.contact-sidebar {
+    background-color: #F9F9F9;
+}
+
+.contact-form {
+    width: 50%;
+    background: whitesmoke;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.contact-form input::placeholder {
+    font-size: 12px;
+    opacity: 0.8;
+}
+.form-group{
+    margin-top: 1rem;
+}
+form button{
+    margin-top: 1rem;
+}
+.react-tel-input .form-control {
+ width: 100% !important;
+ padding: 5px;
+ border: 1px solid #dee2e6 !important;
+}
+
+
+select#country {
+    cursor: pointer;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.location {
+    border-bottom: 1px solid #ccc;
+}
+.location h2 {
+    color: #c9464b;
+    border-bottom: 1px solid #ccc;
+    line-height: 3rem;
+    font-weight: 500;
+}
+.location h5{
+    font-weight: 600;
+    color: #c9464b;
+}
+.location p {
+    color: #6c757d;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
