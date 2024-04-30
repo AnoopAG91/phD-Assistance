@@ -20,7 +20,7 @@
 }
 
 .contact-left{
-    margin: 0;
+    margin-bottom: 4rem;
     padding: 0;
 }
 .contact-sidebar {
@@ -78,3 +78,26 @@ select#country {
     margin-bottom: 10px;
     font-size: 14px;
 }
+
+
+
+
+
+
+@media (max-width:768px){
+    .contact-header {
+        height: 20vh;
+    }
+    .contact-header-content h5{
+        font-size: 0.8rem;
+    }
+    .contact-header-content h1{
+        font-size: 1.5rem;
+    }
+    .contact-header-content{
+        padding: 1rem;
+    }
+    .contact-form {
+        width: 100%;
+    }
+  }
