@@ -24,6 +24,7 @@
     z-index: 1;
     font-size: 1.3rem;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: .3s ease-in;
 }
 .scroll-wrapper.show button:hover{
     transform: translateY(-5px);
