@@ -513,9 +513,13 @@ section.testimonials {
 @media (max-width: 517px) {
 
   /* mentor title  */
-  .mentor-title h1{
-    font-size: 2rem;
-  }
+  .mentor-title h1 {
+    font-size: 1.5rem;
+}
+section.mentors h5 {
+  color: #f8f9fa;
+  font-size: 1rem;
+}
 
   .guarantee {
     margin-top: 2rem;
@@ -578,8 +582,9 @@ section.testimonials {
 button.carousel-control-next,.carousel-control-prev {
   display: none;
 }
-.testimonial-title {
+.testimonial-title h1 {
   color: #c9464b;
+  font-size: 1.8rem !important;
 }
 
 
