@@ -95,6 +95,7 @@ hr.dropdown-divider {
       display: flex;
       justify-content: center;
   }
+
   .top-left a{
     font-size: 12px;
   }
@@ -107,5 +108,9 @@ hr.dropdown-divider {
     .top-left{
         margin-bottom: 1rem;
         justify-content: center;
+    }
+    .top-right ul {
+        padding: 0;
+        margin: 0;
     }
   }
