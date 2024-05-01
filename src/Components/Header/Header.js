@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
@@ -8,8 +8,19 @@ import { Link } from 'react-router-dom';
 
 
 function Header() {
+
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => setIsScrolled(window.scrollY > 50); 
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
     return (
-        <div className='header-wrapper'>
+        <div className={`header-wrapper ${isScrolled ? 'scrolled' : ''}`}>
 
             <div className='top-header'>
                 <div className='container'>
@@ -86,17 +97,17 @@ function Header() {
                                     <a className="nav-link active" aria-current="page" href="#">Hire A research Assistant</a>
                                 </li>
                             </ul>
-                      
-                        <div className='search-div'>
-                            <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search..." aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit"><IoIosSearch /></button>
-                        </form>
+
+                            <div className='search-div'>
+                                <form className="d-flex" role="search">
+                                    <input className="form-control me-2" type="search" placeholder="Search..." aria-label="Search" />
+                                    <button className="btn btn-outline-success" type="submit"><IoIosSearch /></button>
+                                </form>
+                            </div>
+
                         </div>
-                        
-                        </div>
-                        
-                        
+
+
 
                     </div>
                 </nav>
