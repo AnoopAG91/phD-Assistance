@@ -1,0 +1,26 @@
+
+.scroll-wrapper {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    transition: opacity 0.3s ease;
+    display: none;
+    z-index: 1;
+}
+
+.scroll-wrapper.show {
+    display: block;
+    transition: opacity 0.3s ease;
+}
+.scroll-wrapper.show button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c9464b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+    font-size: 1.3rem;
+}

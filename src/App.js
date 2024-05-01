@@ -7,12 +7,14 @@ import Home from './Components/Pages/Home';
 import AboutUs from './Components/Pages/InnerPages/AboutUs';
 import Whatsapp from './Components/WhatsAppIcon/Whatsapp';
 import ContactUs from './Components/Pages/InnerPages/ContactUs';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Header/>
+      <ScrollToTop/>
       <Whatsapp/>
         <Routes>
           <Route path='/' element={<Home/>}/>
